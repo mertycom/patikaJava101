@@ -3,9 +3,11 @@ package patika.dev.java101.homeWork;
 import java.util.Scanner;
 
 public class manavKasa {
+	
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
+		float s = 12.2f;
 		double pear, apple, tomatoes, banana, eggplant;
 		double pearPrice = 2.14;
 		double applePrice = 3.67;
@@ -33,6 +35,8 @@ public class manavKasa {
 		System.out.print("Toplam Tutar: ");
 		System.out.format("%.2f", totalPrice);
 		System.out.print("TL");
+		
+		System.out.println(-12%-5);
 	}
 
 	private static int scInt() {
