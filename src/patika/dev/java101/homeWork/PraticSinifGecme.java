@@ -8,19 +8,19 @@ public class PraticSinifGecme {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Matematik notunuzu yazınız: ");
+        System.out.print("Matematik notunuzu yaziniz: ");
         mat = input.nextInt();
 
-        System.out.print("Fizik notunuzu yazınız: ");
+        System.out.print("Fizik notunuzu yaziniz: ");
         fizik = input.nextInt();
 
-        System.out.print("Türkçe notunuzu yazınız: ");
+        System.out.print("Turkce notunuzu yaziniz: ");
         turkce = input.nextInt();
 
-        System.out.print("Kimya notunuzu yazınız: ");
+        System.out.print("Kimya notunuzu yaziniz: ");
         kimya = input.nextInt();
 
-        System.out.print("Müzik notunuzu yazınız: ");
+        System.out.print("Muzik notunuzu yaziniz: ");
         muzik = input.nextInt();
         
         double ort;
@@ -39,12 +39,12 @@ public class PraticSinifGecme {
         
         
         if( ort < 55 ) {
-            System.out.println("Sınıfta kaldınız. Seneye görüşmek üzere :)");
+            System.out.println("Sinifta kaldiniz. Seneye gorusmek uzere");
         }
         else {
-            System.out.println("Sınıfı geçtiniz. Tebrikler :)");
+            System.out.println("Sinifi geçtiniz. Tebrikler");
         }
-        System.out.println("Ortalamanız: "+ ort);
+        System.out.println("Ortalamaniz: "+ ort);
         input.close();
 	}
 }
